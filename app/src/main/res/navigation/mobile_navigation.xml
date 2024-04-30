@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_hunt">
+    <fragment
+        android:id="@+id/navigation_hunt"
+        android:name="com.example.shiny_counter.ui.hunt.HuntFragment"
+        android:label="fragment_hunt"
+        tools:layout="@layout/fragment_hunt" />
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.shiny_counter.ui.settings.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/navigation_saves"
+        android:name="com.example.shiny_counter.ui.saves.SavesFragment"
+        android:label="fragment_saves"
+        tools:layout="@layout/fragment_saves" />
+</navigation>
